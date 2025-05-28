@@ -1,0 +1,6 @@
+This question is interesting as it is basically revolves around two central conditions.
+The lowest common ancestor is the lowest node that has p and q as its descendants.
+so if p and q are small that current node, then you search the smallest subtree, if its bigger, you search
+the bigger subtree.
+if p and q are different, then it is split and there can be no common search space. that means the current node is the
+LCA.
